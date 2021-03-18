@@ -19,6 +19,9 @@
 		112B830C25DE779C004BFCCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 112B830A25DE779C004BFCCD /* Main.storyboard */; };
 		112B830E25DE779E004BFCCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 112B830D25DE779E004BFCCD /* Assets.xcassets */; };
 		112B831125DE779E004BFCCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 112B830F25DE779E004BFCCD /* LaunchScreen.storyboard */; };
+		1133A34B2601FFB7003BCEA7 /* ProductPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1133A34A2601FFB7003BCEA7 /* ProductPresenter.swift */; };
+		1133A34E26023A3E003BCEA7 /* CategoryPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1133A34D26023A3E003BCEA7 /* CategoryPresenter.swift */; };
+		1133A3532602448D003BCEA7 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1133A3522602448D003BCEA7 /* Protocols.swift */; };
 		116A7E3325F6A07800D37187 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116A7E3225F6A07800D37187 /* ProductCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +40,9 @@
 		112B830D25DE779E004BFCCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		112B831025DE779E004BFCCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		112B831225DE779E004BFCCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1133A34A2601FFB7003BCEA7 /* ProductPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductPresenter.swift; sourceTree = "<group>"; };
+		1133A34D26023A3E003BCEA7 /* CategoryPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryPresenter.swift; sourceTree = "<group>"; };
+		1133A3522602448D003BCEA7 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 		116A7E3225F6A07800D37187 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,6 +85,8 @@
 		112B830325DE779C004BFCCD /* MyOnliner */ = {
 			isa = PBXGroup;
 			children = (
+				1133A3512602447B003BCEA7 /* Protocols */,
+				1133A3492601FB44003BCEA7 /* Presenter */,
 				113BE7C925F27366004A1AE4 /* Service */,
 				113BE7C725F27348004A1AE4 /* Model */,
 				113BE7C625F27341004A1AE4 /* Controller */,
@@ -90,6 +98,23 @@
 				112B831225DE779E004BFCCD /* Info.plist */,
 			);
 			path = MyOnliner;
+			sourceTree = "<group>";
+		};
+		1133A3492601FB44003BCEA7 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				1133A34A2601FFB7003BCEA7 /* ProductPresenter.swift */,
+				1133A34D26023A3E003BCEA7 /* CategoryPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		1133A3512602447B003BCEA7 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				1133A3522602448D003BCEA7 /* Protocols.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 		113BE7C625F27341004A1AE4 /* Controller */ = {
@@ -195,9 +220,12 @@
 				112B830925DE779C004BFCCD /* CategoryController.swift in Sources */,
 				110FF1A225F517CC0095E68D /* Catalog.swift in Sources */,
 				112B830525DE779C004BFCCD /* AppDelegate.swift in Sources */,
+				1133A34B2601FFB7003BCEA7 /* ProductPresenter.swift in Sources */,
+				1133A34E26023A3E003BCEA7 /* CategoryPresenter.swift in Sources */,
 				110FF1D025F65F380095E68D /* ProductModel.swift in Sources */,
 				110FF1A625F570100095E68D /* CatalogModel.swift in Sources */,
 				112B830725DE779C004BFCCD /* SceneDelegate.swift in Sources */,
+				1133A3532602448D003BCEA7 /* Protocols.swift in Sources */,
 				116A7E3325F6A07800D37187 /* ProductCell.swift in Sources */,
 				110FF1C825F61BC20095E68D /* NetworkService.swift in Sources */,
 				110FF1CC25F659BE0095E68D /* ProductController.swift in Sources */,

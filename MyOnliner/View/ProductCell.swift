@@ -11,7 +11,6 @@ class ProductCell: UITableViewCell {
         descriptionProduct.text = product.description
         
         imageViewProduct.downloaded(from: "https:\(product.images.header)")
-        //imageViewProduct.image = UIImage(named: "apple")
     }
 }
 
